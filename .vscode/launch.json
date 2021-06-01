@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open The Story of the Chinese Farmer.html",
+            "file": "c:\\Users\\elsa_\\OneDrive\\Documentos\\GitHub\\progressive-enhancement\\The Story of the Chinese Farmer.html"
+        }
+    ]
+}
