@@ -4,6 +4,7 @@ p
     color: grey;
     word-spacing: 3mm;
     font-size: 20px;
+    text-align: justify;
 }
 
 a
@@ -25,7 +26,7 @@ color: red;
 body
 {
     width: 90%;
-    margin: 15%;
+    margin: auto;
     font-family: 'Roboto', sans-serif;
     background: url(enlightenment.jpeg);
     /*background: no-repeat bottom right;*/
@@ -105,7 +106,7 @@ li{
     background-size: contain;
     background-position: right;
 }
-section > figure{
+div > figure{
     float: right;
 }
 .notification{
@@ -118,4 +119,7 @@ section > figure{
     position: fixed;
     bottom: 0;
     right: 0;
+  }
+  table>caption{
+      caption-side: bottom;
   }
