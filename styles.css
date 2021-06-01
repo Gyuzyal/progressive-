@@ -1,0 +1,121 @@
+p
+{
+    /*font-family: serif;*/
+    color: grey;
+    word-spacing: 3mm;
+    font-size: 20px;
+}
+
+a
+{
+    /*font-family: serif;*/
+    font-size: 20px;
+}
+
+a:visited 
+{
+color: green;
+}
+
+a:hover 
+{
+color: red;
+}
+
+body
+{
+    width: 90%;
+    margin: 15%;
+    font-family: 'Roboto', sans-serif;
+    background: url(enlightenment.jpeg);
+    /*background: no-repeat bottom right;*/
+    background-size: cover;  
+}
+
+blockquote
+{
+    font-size: 160%;
+    font-style: italic;
+    width: 45%;
+    margin:15%;
+    background-color: gainsboro;
+    border-left: firebrick 3px solid;
+    padding: 80px 30px;   
+}
+.neighbors {
+     border-left: black 5px solid;
+}
+.farmer{
+    border-left: chartreuse 5px solid;
+}
+
+header > p{
+    background-color: yellow;
+}
+.good{
+    text-transform: capitalize;
+    color:green
+}
+.bad{
+    text-transform: capitalize;
+    color:red
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    padding: 2px;
+}
+tr:nth-child(even){
+    background-color: grey;
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+
+li{
+    margin: 20px;
+       
+}
+
+.img1{
+    width: 300px;
+    padding-right: 200px;
+    background-image: url(bien.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    
+}
+.img2{
+    width: 300px;
+    padding-right: 200px;
+    background-image: url(mal.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.img3{
+    width: 300px;
+    padding-right: 200px;
+    background-image: url(chat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+section > figure{
+    float: right;
+}
+.notification{
+    background:red;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
